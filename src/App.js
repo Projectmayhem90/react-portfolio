@@ -1,29 +1,52 @@
 // Import necessary dependencies
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navigation from './components/Navigation';
-import Footer from './components/Footer';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Work from './pages/Home';
 import About from './pages/About';
-import Work from './pages/Work';
+import Portfolio from './components/Portfolio';
 import Contact from './pages/Contact';
+import './App.css';
 
-// Define the App component
 function App() {
   return (
-    // Set up the Router and define the routes
     <Router>
-      <div className="Portfolio">
-        <Navigation />
-        <Routes>
-          <Route path='/' element={<About />} />
-          <Route path='/portfolio' element={<Work />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-        <Footer />
+      <div className="App">
+        <header>
+          <nav>
+            <ul>
+              <li>
+                <a href="/">Work</a>
+              </li>
+              <li>
+                <a href="/about">About</a>
+              </li>
+              <li>
+                <a href="/portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/">
+            <Work />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
-};
+}
 
-// Export the App component as the default export
 export default App;
