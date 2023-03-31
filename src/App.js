@@ -1,7 +1,7 @@
 // Import necessary dependencies
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Work from './pages/Home';
+import Work from './pages/Work';
 import About from './pages/About';
 import Portfolio from './components/Portfolio';
 import Contact from './pages/Contact';
@@ -15,7 +15,7 @@ function App() {
           <nav>
             <ul>
               <li>
-                <a href="/">Work</a>
+                <a href="/work">Work</a>
               </li>
               <li>
                 <a href="/about">About</a>

@@ -25,7 +25,7 @@ function Work() {
       <div className="project">
         <h2>Project 4</h2>
         <img src={require('./img/project4.png')} alt="Project 4" />
-        <p>PH</p>
+        <p>PH.</p>
         <a href="#">View Project</a>
       </div>
     </div>
