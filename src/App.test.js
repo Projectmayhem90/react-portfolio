@@ -5,11 +5,9 @@ test('renders navigation links', () => {
   render(<App />);
   const workLink = screen.getByText(/Work/i);
   const aboutLink = screen.getByText(/About/i);
-  const portfolioLink = screen.getByText(/Portfolio/i);
   const contactLink = screen.getByText(/Contact/i);
   expect(workLink).toBeInTheDocument();
   expect(aboutLink).toBeInTheDocument();
-  expect(portfolioLink).toBeInTheDocument();
   expect(contactLink).toBeInTheDocument();
 });
 
