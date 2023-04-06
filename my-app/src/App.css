@@ -33,9 +33,17 @@ body {
 .profileImg {
   height: 22rem;
   width: 22rem;
-  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid;
   border-radius: 8px;
+  overflow: hidden; /* Ensures that the image is clipped to the dimensions of the container */
+}
+.profileImg img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Centers and scales the image within the container */
 }
   
   /* Style the navigation links */
@@ -73,10 +81,26 @@ body {
   /* Style paragraphs */
   p {
     line-height: 1.5;
+    text-indent: 2em;
   }
   
   /* Style images */
   img {
     max-width: 100%;
     height: auto;
+    justify-content: center;
   }
+
+.footer {
+  color: var(--secondary);
+  text-align: center;
+  font-size: 4rem;
+  left: 0;
+  bottom: 0;
+}
+
+.footerIcons {
+  justify-content: center;
+  column-gap: 40px;
+  display: flex;
+}

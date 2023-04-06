@@ -2,9 +2,8 @@
     color: red;
 }
 
-.profile {
-    width: 400px;
-    height: 400px;
+.Profile1 {
+    justify-content: center;
 }
 
 .aboutContent {
@@ -32,6 +31,7 @@
     margin:auto;
     max-width: 60vw;
     display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1440px) {
@@ -43,5 +43,6 @@
 
     .aboutHolder img {
         margin-bottom: 2rem;
+        justify-content: center;
     }
 }

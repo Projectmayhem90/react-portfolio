@@ -1,31 +1,45 @@
 import React from 'react';
-import classes from './Work.module.css';
+import classes from '../pages/Work.module.css';
+import pokedexmin from '../images/pokedexmin.png';
+import regexgist from '../images/regexgist.png';
+import JATE from '../images/JATE.png';
 
-function WorkModule() {
+function WorkModule(props) {
     return (
-      <section className={classes.workModule}>
-        <div className={classes.workExample}>
-          <img src={require('../images/pokedexmin.png')} alt="PKmini" />
-          <h2>PokedexMini</h2>
-          <p>A pokemon mini that works with multiple Api's to show evolution, if avaliable in Pokemon Go, among other things</p>
-        </div>
-        <div className={classes.workExample}>
-          <img src="" alt="Example 2" />
-          <h2>Example 2</h2>
-          <p>Description of Example 2</p>
-        </div>
-        <div className={classes.workExample}>
-          <img src='' alt="Example 3" />
-          <h2>Example 3</h2>
-          <p>Description of Example 3</p>
-        </div>
-        <div className={classes.workExample}>
-          <img src='' alt="Example 4" />
-          <h2>Example 4</h2>
-          <p>Description of Example 4</p>
-        </div>
-      </section>
-    );
-  }
+        <figure className={classes.workModule}>
+            <a href={props.deploy}><img src={props.image} alt={props.alt} /></a>
+            <p>{props.desc}</p>
+            <a href={props.github} className={classes.githubLink}>Github Repo</a>
+        </figure>
+    )
+}
 
-export default WorkModule;
+function WorkItem() {
+    return (
+        <>
+            <WorkModule
+                deploy='https://retrotechcode.github.io/Pokedex-Mini'
+                image={pokedexmin}
+                Name='Pokedex Mini'
+                desc={`Text`}
+                github='https://github.com/RetroTechCode/Pokedex-Mini'
+            />
+            <WorkModule
+                deploy='https://github.com/Projectmayhem90/regex-gist'
+                image={regexgist}
+                Name='Regex-gist'
+                desc={'text'}
+                github='https://github.com/Projectmayhem90/regex-gist/blob/main/regex-gist.md'
+            />
+            <WorkModule
+                deploy='https://pwa-0527.herokuapp.com/'
+                image={JATE}
+                Name='PWA Text Editor'
+                desc={'text'}
+                github='https://github.com/Projectmayhem90/progressive-web-applications-text-editor'
+            />
+        </>
+    );
+};
+
+export default WorkItem;
