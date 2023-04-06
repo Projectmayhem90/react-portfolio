@@ -6,11 +6,6 @@ function Navigation() {
     <nav>
       <ul>
         <li>
-          <NavLink exact to="/" activeClassName="active">
-            Home
-          </NavLink>
-        </li>
-        <li>
           <NavLink to="/about" activeClassName="active">
             About
           </NavLink>

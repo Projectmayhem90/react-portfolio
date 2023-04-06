@@ -1,31 +1,22 @@
 import React from 'react';
 
+import PageContainer from '../components/containers/PageContainer';
+import Navigation from '../components/containers/Navigation';
+import WorkModule from '../components/workModule';
+import classes from './Work.module.css';
+
+
 function Work() {
+  document.title = "Joshua OBrien - Portfolio"
+
+
   return (
-    <div>
-      <h1>My Work</h1>
-      <div className="project">
-        <h2>Project 1</h2>
-        <img src={require('')} alt="Project 1" />
-        <p>PH</p>
-      </div>
-      <div className="project">
-        <h2>Project 2</h2>
-        <img src={require('')} alt="Project 2" />
-        <p>PH</p>
-      </div>
-      <div className="project">
-        <h2>Project 3</h2>
-        <img src={require('')} alt="Project 3" />
-        <p>PH</p>
-      </div>
-      <div className="project">
-        <h2>Project 4</h2>
-        <img src={require('')} alt="Project 4" />
-        <p>PH.</p>
-      </div>
-    </div>
+    <PageContainer title='Portfolio'>
+      <Navigation title='Work'/>
+      <article className={classes.workBox}>
+      </article>
+    </PageContainer>
   );
-}
+};   
 
 export default Work;
