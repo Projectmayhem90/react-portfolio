@@ -1,0 +1,103 @@
+/* form.module.css */
+
+/* Form container */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+  
+  /* Form fields */
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+  
+  .form-field label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+  .form-field input[type='text'],
+  .form-field input[type='email'],
+  .form-field textarea {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    resize: vertical;
+}
+  
+.form-field input[type='text'],
+.form-field input[type='email'] {
+    height: 40px;
+}
+  
+.form-field textarea {
+    min-height: 120px;
+}
+  
+  /* Form submit button */
+.form-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+  
+.form-submit:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center the form horizontally */
+}
+  
+.input,
+.textarea {
+    padding: 8px;
+    text-align: center;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    width: 100%; /* make the input and textarea boxes take up the full width of the form */
+    box-sizing: border-box; /* include padding and border in the element's total width and height */
+}
+  
+.textarea {
+    height: 150px; /* set the height of the textarea to be taller */
+}
+  
+.label {
+    margin: 8px;
+}
+  
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px;
+}
+  
+.button:hover {
+    background-color: #45a049;
+}

@@ -1,20 +1,20 @@
-import React from 'react';
+import { useState } from 'react';
 
-function Contact() {
+import PageContainer from '../components/containers/PageContainer';
+import Navigation from '../components/containers/Navigation';
+import ContactForm from '../components/Form';
+
+const Contact = () => {
+  useState(() => {
+    document.title = 'Joshua OBrien - Contact';
+  }, []);
+
   return (
-    <div>
-      <h1>Contact Me</h1>
-      <form>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" required />
-        <button type="submit">Send</button>
-      </form>
-    </div>
+    <PageContainer title="Hit Me Up">
+      <Navigation title="Hit Me Up" />
+      <ContactForm />
+    </PageContainer>
   );
-}
+};
 
 export default Contact;
