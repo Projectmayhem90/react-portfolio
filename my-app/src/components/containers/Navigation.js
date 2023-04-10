@@ -20,6 +20,11 @@ function Navigation() {
             Contact
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/resume" activeClassName="active">
+            Resume
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
