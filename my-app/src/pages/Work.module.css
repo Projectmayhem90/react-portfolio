@@ -45,13 +45,13 @@
     }
 
     .workBox img {
-        width: 75vw;
+        width: 120vw;
         height: 18vw;
         margin-bottom: 0 auto;
     }
 
     .workBox p {
-        width: unset;
+        width: 90%;
         margin-bottom: 0 auto;
     }
 

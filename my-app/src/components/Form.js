@@ -4,12 +4,40 @@ import classes from './Form.module.css';
 function ContactForm() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [nameError, setNameError] = useState('');
+  const [emailError, setEmailError] = useState('');
+  const [messageError, setMessageError] = useState('');
+  const [generalError, setGeneralError] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Send form data to server using Axios or fetch
-    console.log(formData);
-    setIsSubmitted(true);
+    // Check if each input field is empty and set an error message state accordingly
+    if (!formData.name) {
+      setNameError('Please enter your name');
+    } else {
+      setNameError('');
+    }
+    if (!formData.email) {
+      setEmailError('Please enter your email');
+    } else {
+      setEmailError('');
+    }
+    if (!formData.message) {
+      setMessageError('Please enter a message');
+    } else {
+      setMessageError('');
+    }
+    // Check if all input fields are empty and set a general error message state
+    if (!formData.name && !formData.email && !formData.message) {
+      setGeneralError('Please fill out all fields');
+    } else {
+      setGeneralError('');
+    }
+    // Submit the form data if there are no errors
+    if (formData.name && formData.email && formData.message) {
+      console.log(formData);
+      setIsSubmitted(true);
+    }
   };
 
   const handleChange = (event) => {
@@ -34,6 +62,7 @@ function ContactForm() {
             onChange={handleChange}
             className={classes.input}
           />
+          {nameError && <p className={classes.error}>{nameError}</p>}
 
           <label htmlFor="email" className={classes.label}>
             Email:
@@ -46,6 +75,7 @@ function ContactForm() {
             onChange={handleChange}
             className={classes.input}
           />
+          {emailError && <p className={classes.error}>{emailError}</p>}
 
           <label htmlFor="message" className={classes.label}>
             Message:
@@ -57,10 +87,12 @@ function ContactForm() {
             onChange={handleChange}
             className={classes.textarea}
           ></textarea>
+          {messageError && <p className={classes.error}>{messageError}</p>}
 
           <button type="submit" className={classes.button}>
             Submit
           </button>
+          {generalError && <p className={classes.error}>{generalError}</p>}
         </form>
       )}
     </>
