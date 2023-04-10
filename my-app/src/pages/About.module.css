@@ -46,3 +46,16 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 1980px) {
+    .aboutHolder {
+        max-width: 100vw;
+        flex-direction: column;
+    }
+    
+
+    .aboutHolder img {
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+}

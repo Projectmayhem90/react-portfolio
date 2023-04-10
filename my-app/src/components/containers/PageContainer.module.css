@@ -13,3 +13,11 @@
       overflow-y: scroll;
     }
   }
+
+  @media screen and (max-width: 1980px) {
+    .pageBody {
+      height: unset;
+      padding: 0rem 1rem 1rem;
+      overflow-y: scroll;
+    }
+  }
