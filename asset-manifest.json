@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.7f1668ea.css",
+    "main.js": "/react-portfolio/static/js/main.82882ad4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react-portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/pokedexmin.png": "/react-portfolio/static/media/pokedexmin.d55eb894ee3284ef7ad9.png",
+    "static/media/profile.jpg": "/react-portfolio/static/media/profile.43f9689eaf7de8990e0b.jpg",
+    "static/media/18.ch18.png": "/react-portfolio/static/media/18.ch18.d3eeac56b2fb952275b2.png",
+    "static/media/regexgist.png": "/react-portfolio/static/media/regexgist.e49e6268277da3937636.png",
+    "static/media/JATE.png": "/react-portfolio/static/media/JATE.65b072a552a11847d61e.png",
+    "static/media/Header-Do-SMTHG-GRT.jpg": "/react-portfolio/static/media/Header-Do-SMTHG-GRT.3f1014bdf0d4d9b044af.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.7f1668ea.css.map": "/react-portfolio/static/css/main.7f1668ea.css.map",
+    "main.82882ad4.js.map": "/react-portfolio/static/js/main.82882ad4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react-portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f1668ea.css",
+    "static/js/main.82882ad4.js"
+  ]
+}
