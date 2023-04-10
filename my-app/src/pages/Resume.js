@@ -7,7 +7,9 @@ function Resume() {
   return (
     <div>
       <Navigation title='Resume'/>
+        <Navigation title='Resume'/>
       <iframe title="Resume" src={`${process.env.PUBLIC_URL}/JoshuaOBrienRS.pdf`} width="100%" height="500px"/>
+        <Resume />
     </div>
   );
 };   
