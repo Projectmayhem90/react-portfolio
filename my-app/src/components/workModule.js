@@ -4,6 +4,7 @@ import pokedexmin from '../images/pokedexmin.png';
 import regexgist from '../images/regexgist.png';
 import JATE from '../images/JATE.png';
 import SocialAPI from '../images/18.ch18.png';
+import Virtuoso from '../images/VirtuosoBandPage.png'
 
 function WorkModule(props) {
     return (
@@ -45,6 +46,13 @@ function WorkItem() {
                 Name='Social Api Mongo DB'
                 desc={'This database stores extra information related to each user, thought, and reaction. For instance, for each user, it keeps track of their friends, friend count, and thoughts. Similarly, for each thought, it stores the user who posted it, the number of reactions it received, and the time it was created.'}
                 github='https://github.com/Projectmayhem90/progressive-web-applications-text-editor'
+            />
+            <WorkModule
+                deploy='https://team-6-virtuoso.herokuapp.com/'
+                image={Virtuoso}
+                Name='Virtuoso'
+                desc={'Virtuoso is a business and performance-focused social media platform that works through artist job-listings and crowds size played using Chart.js.'}
+                github='https://github.com/RetroTechCode/virtuoso'
             />
         </>
     );
