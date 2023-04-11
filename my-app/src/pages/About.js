@@ -9,7 +9,7 @@ import Profile1 from "../images/profile.jpg";
 function About(props) {
   return (
     <PageContainer title="Joshua OBrien">
-        <Navigation title="Joshua OBrien"/>
+      <Navigation title="Joshua OBrien"/>
       <div className={classes.aboutHolder}>
         <img
           className="profileImg"

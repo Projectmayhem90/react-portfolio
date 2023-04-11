@@ -6,7 +6,7 @@ function Navigation() {
     <nav>
       <ul>
         <li>
-          <NavLink to="/about" activeClassName="active">
+          <NavLink to="/" activeClassName="active">
             About
           </NavLink>
         </li>
