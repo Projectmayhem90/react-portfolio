@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7f1668ea.css",
-    "main.js": "/react-portfolio/static/js/main.45beaf3d.js",
+    "main.js": "/react-portfolio/static/js/main.5ea112bd.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/VirtuosoBandPage.png": "/react-portfolio/static/media/VirtuosoBandPage.00f08b947a2017e1afb2.png",
     "static/media/pokedexmin.png": "/react-portfolio/static/media/pokedexmin.d55eb894ee3284ef7ad9.png",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.43f9689eaf7de8990e0b.jpg",
     "static/media/18.ch18.png": "/react-portfolio/static/media/18.ch18.d3eeac56b2fb952275b2.png",
@@ -11,11 +12,11 @@
     "static/media/Header-Do-SMTHG-GRT.jpg": "/react-portfolio/static/media/Header-Do-SMTHG-GRT.3f1014bdf0d4d9b044af.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.7f1668ea.css.map": "/react-portfolio/static/css/main.7f1668ea.css.map",
-    "main.45beaf3d.js.map": "/react-portfolio/static/js/main.45beaf3d.js.map",
+    "main.5ea112bd.js.map": "/react-portfolio/static/js/main.5ea112bd.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f1668ea.css",
-    "static/js/main.45beaf3d.js"
+    "static/js/main.5ea112bd.js"
   ]
 }
