@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/react-portfolio'>
     <Routes>
       {/* <Route path="/about" element={<About />}></Route> */}
       <Route path="/work" element={<Work />}></Route>
