@@ -5,6 +5,7 @@ import regexgist from '../images/regexgist.png';
 import JATE from '../images/JATE.png';
 import SocialAPI from '../images/18.ch18.png';
 import Virtuoso from '../images/VirtuosoBandPage.png'
+import Steamup from '../images/STEAMUPHOME.png'
 
 function WorkModule(props) {
     return (
@@ -53,6 +54,13 @@ function WorkItem() {
                 Name='Virtuoso'
                 desc={'Virtuoso is a business and performance-focused social media platform that works through artist job-listings and crowds size played using Chart.js.'}
                 github='https://github.com/RetroTechCode/virtuoso'
+            />
+            <WorkModule
+                deploy='https://t4-steam-up.herokuapp.com/'
+                image={Steamup}
+                Name='Steamup'
+                desc={'Steam-up is a social gaming interactive application that allows users to create a profile, see top games and vote on what theyre most intrested in and the ability to add comments.'}
+                github='https://github.com/lutz143/steam-up'
             />
         </>
     );
