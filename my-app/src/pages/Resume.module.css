@@ -87,6 +87,10 @@
     }
 }
 
+.downloadLink {
+    margin-top: 20px; /* example */
+    font-size: 16px; /* example */
+}
 
 .githubLink {
     color: black;

@@ -4,7 +4,7 @@ import PageContainer from '../components/containers/PageContainer';
 import ResumeItem from '../components/ResumeModule';
 import classes from './Resume.module.css';
 
-function ResumePage() {
+function DownloadComponent() {
   return (
     <div>
       <PageContainer title='Resume'>
@@ -21,4 +21,4 @@ function ResumePage() {
   );
 }
 
-export default ResumePage;
+export default DownloadComponent;
