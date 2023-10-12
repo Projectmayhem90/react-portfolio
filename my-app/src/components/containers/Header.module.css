@@ -1,25 +1,21 @@
-.pageHeader {
-    height: calc(90vh - 62px);
-    padding: 4rem;
-    margin: 0 auto;
-    font-size: 1.4rem;
-    overflow-y: auto;
-  }
-  
-  @media screen and (max-width: 1366px) {
-    .pageHeader {
-      height: unset;
-      padding: 5.5rem 2rem 5rem;
-      overflow-y: scroll;
-    }
-  }
+.header {
+  position: relative;
+  width: 100%;
+  /* Set a height for your header, adjust as needed */
+  height: 300px; 
+  overflow: hidden; /* This will hide any overflow from the image */
+}
 
-  @media screen and (max-width: 1980px) {
-    .pageHeader {
-      height: unset;
-      padding: 0rem 1rem 1rem;
-      overflow-y: scroll;
-    }
-  }
+.banner {
+  display: block; /* Remove any default spacing */
+  width: 100%; 
+  height: auto;
+  max-height: 100%;
+}
 
-  
+/* Optional: You can add media queries if you want different heights for different screen sizes */
+@media screen and (max-width: 768px) {
+  .header {
+      height: 200px; /* Adjust height for mobile screens */
+  }
+}
