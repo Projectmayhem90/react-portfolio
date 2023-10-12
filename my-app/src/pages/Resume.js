@@ -2,30 +2,23 @@ import React from 'react';
 import Navigation from '../components/containers/Navigation';
 import PageContainer from '../components/containers/PageContainer';
 import ResumeItem from '../components/ResumeModule';
-import classes from './resume.module.css';
+import classes from './Resume.module.css';
 
-
-function Resume() {
+function ResumePage() {
   return (
     <div>
       <PageContainer title='Resume'>
         <Navigation title='Resume' />
         <article className={classes.resumeBox}>
           <ResumeItem />
+          {/* Adding the download link below the ResumeItem */}
+          <div className={classes.downloadLink}>
+            <a href="/JoshuaOBrienRS.pdf" download>Download my Resume</a>
+          </div>
         </article>
-        <Resume
-          data="/my-app/public/JoshuaOBrienRS.pdf"
-          type="application/pdf"
-          width="100%"
-          height="600px"
-        >
-          <p>It seems you don't have a PDF plugin for this browser.
-            You can <a href="/JoshuaOBrienRS.pdf">click here to download the PDF file.</a>
-          </p>
-        </Resume>
       </PageContainer>
     </div>
   );
 }
 
-export default Resume;
+export default ResumePage;

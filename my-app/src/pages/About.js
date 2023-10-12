@@ -3,7 +3,7 @@ import classes from './About.module.css';
 import PageContainer from '../components/containers/PageContainer';
 import Navigation from '../components/containers/Navigation';
 
-import Profile1 from "../images/profile.jpg";
+import profile from "../images/profile.jpg";
 
 
 function About(props) {
@@ -13,8 +13,8 @@ function About(props) {
       <div className={classes.aboutHolder}>
         <img
           className="profileImg"
-          src={Profile1}
-          alt="Picture with my kid" />
+          src={profile}
+          alt="" />
         <div className={classes.aboutContent}>
           <br /> <br />
             Throughout my professional journey in my twenties, I underwent a range of occupations without feeling a sense of passion towards any particular field. However, in 2022, I made a conscious decision to pursue a long-held aspiration of mine - web-based coding.

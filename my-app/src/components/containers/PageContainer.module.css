@@ -21,27 +21,3 @@
       overflow-y: scroll;
     }
   }
-
-  .pageHeader {
-    height: calc(90vh - 62px);
-    padding: 4rem;
-    margin: 0 auto;
-    font-size: 1.4rem;
-    overflow-y: auto;
-  }
-  
-  @media screen and (max-width: 1366px) {
-    .pageHeader {
-      height: unset;
-      padding: 5.5rem 2rem 5rem;
-      overflow-y: scroll;
-    }
-  }
-
-  @media screen and (max-width: 1980px) {
-    .pageHeader {
-      height: unset;
-      padding: 0rem 1rem 1rem;
-      overflow-y: scroll;
-    }
-  }

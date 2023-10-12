@@ -7,6 +7,8 @@ import Contact from './pages/Contact';
 import Footer from './components/containers/Footer';
 import Resume from './pages/Resume';
 import './App.css';
+import { pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function App() {
   return (

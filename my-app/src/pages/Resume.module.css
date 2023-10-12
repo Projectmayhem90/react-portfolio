@@ -1,29 +1,19 @@
 .resumeBox {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 0 18rem 4rem;
     text-align: center;
     color: black;
-    justify-content: center;
     width: 100%;
-}
-
-.resumeBox img {
-    height: 18rem;
-    width: 32rem;
-    border-radius: 10px;
-}
-
-.resumeBox p {
-    width: 40rem;
 }
 
 .resumeModule {
     display: inline-block;
     width: 40rem;
     margin: 0 auto;
+    text-align: center;
 }
 
 @media screen and (max-width: 1840px) {
