@@ -17,6 +17,8 @@ function ResumeItem() {
         <>
             <ResumeModule
                 deploy='/my-app/public/JoshuaOBrienRS.pdf'
+                image='/my-app/src/images/JoshuaOBrienRS.pdf'
+                name='Resume'
             />
         </>
     );

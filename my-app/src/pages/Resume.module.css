@@ -1,0 +1,112 @@
+.resumeBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4rem;
+    padding: 0 18rem 4rem;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    width: 100%;
+}
+
+.resumeBox img {
+    height: 18rem;
+    width: 32rem;
+    border-radius: 10px;
+}
+
+.resumeBox p {
+    width: 40rem;
+}
+
+.resumeModule {
+    display: inline-block;
+    width: 40rem;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1840px) {
+
+    .resumeBox {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .resumeModule {
+        width: 24rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .resumeBox img {
+        width: 120vw;
+        height: 18vw;
+        margin-bottom: 0 auto;
+    }
+
+    .resumeBox p {
+        width: 90%;
+        margin-bottom: 0 auto;
+    }
+
+    .navigation {
+        margin-left: 0 auto; 
+        margin-right: 0 auto;
+        text-align: center; 
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .resumeBox {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resumeBox img {
+        width: 90vw;
+        height: 51vw;
+        margin-bottom: 2rem;
+    }
+
+    .resumeBox p {
+        width: unset;
+        margin-bottom: 2rem;
+    }
+
+    .resumeModule {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: unset;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navigation {
+        margin-left: 0 auto; 
+        margin-right: 0 auto;
+        text-align: center; 
+    }
+}
+
+
+.githubLink {
+    color: black;
+    text-decoration: none;
+}
+
+.githubLink:hover {
+    color: white;
+}
+
+.githubLink:active {
+    color: black;
+}
