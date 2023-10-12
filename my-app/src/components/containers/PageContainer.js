@@ -6,6 +6,9 @@ const PageContainer = ({ title, children }) => {
   return (
     <>
       <Header page={title} />
+      <section className={styles.pageHeader}>
+        {children}
+      </section>
       <section className={styles.pageBody}>
         {children}
       </section>

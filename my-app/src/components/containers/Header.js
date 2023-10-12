@@ -1,7 +1,7 @@
 import React from 'react';
 import banner from '../../images/Header-Do-SMTHG-GRT.jpg'
 
-function Head(props) {
+function Header(props) {
   return (
     <header className="header">
       <img className="banner" src={banner} />
@@ -9,4 +9,4 @@ function Head(props) {
   );
 };
 
-export default Head;
+export default Header;
