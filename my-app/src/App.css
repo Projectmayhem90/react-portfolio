@@ -9,25 +9,25 @@
 
 /* Set global styles */
 body {
-    background-color: var(--bg);
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Style the header */
-.header {
-    
-  padding: 0rem;
-  text-align: center;
-  position: relative;
+  background-color: var(--bg);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
+/* Style the header */
+.header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
 
 .banner {
-  object-fit: cover;
+  display: block;
   width: 100%;
-  height: 20vh;
+  height: auto;
+  max-height: 100%;
 }
 
 .profileImg {
@@ -38,58 +38,64 @@ body {
   align-items: center;
   border: 2px solid;
   border-radius: 8px;
-  overflow: hidden; /* Ensures that the image is clipped to the dimensions of the container */
+  overflow: hidden;
 }
+
 .profileImg img {
   max-width: 100%;
   max-height: 100%;
-  object-fit: contain; /* Centers and scales the image within the container */
+  object-fit: contain;
 }
-  
-  /* Style the navigation links */
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 1rem;
-  }
-  
-  nav a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Style the page content */
-  main {
-    margin: 2rem auto;
-    max-width: 960px;
-    padding: 0 1rem;
-  }
-  
-  /* Style headings */
-  h1, h2, h3, h4, h5, h6 {
-    margin: 1rem 0;
-  }
-  
-  /* Style paragraphs */
-  p {
-    line-height: 1.5;
-    text-indent: 2em;
-  }
-  
-  /* Style images */
-  img {
-    max-width: 100%;
-    height: auto;
-    justify-content: center;
-  }
+
+/* Style the navigation links */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style the page content */
+main {
+  margin: 2rem auto;
+  max-width: 960px;
+  padding: 0 1rem;
+}
+
+/* Style headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0;
+}
+
+/* Style paragraphs */
+p {
+  line-height: 1.5;
+  text-indent: 2em;
+}
+
+/* Style images */
+img {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
 
 .footer {
   color: var(--secondary);
@@ -101,6 +107,18 @@ body {
 
 .footerIcons {
   justify-content: center;
-  column-gap: 40px;
+  column-gap: 60px;
   display: flex;
+}
+
+/* Color for the footer icons */
+.contactLink svg {
+  color: black;
+  transition: color 0.3s ease;
+  /*   smooth transition for hover effect */
+}
+
+/* Hover effect for the footer icons */
+.contactLink:hover svg {
+  color: blue;
 }
