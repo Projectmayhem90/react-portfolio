@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7c66a482.css",
-    "main.js": "/react-portfolio/static/js/main.fe090c29.js",
+    "main.js": "/react-portfolio/static/js/main.19a06aa9.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/STEAMUPHOME.png": "/react-portfolio/static/media/STEAMUPHOME.a8fd8fc8ffd882826bb5.png",
     "static/media/VirtuosoBandPage.png": "/react-portfolio/static/media/VirtuosoBandPage.00f08b947a2017e1afb2.png",
@@ -13,11 +13,11 @@
     "static/media/Header-Do-SMTHG-GRT.jpg": "/react-portfolio/static/media/Header-Do-SMTHG-GRT.3f1014bdf0d4d9b044af.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.7c66a482.css.map": "/react-portfolio/static/css/main.7c66a482.css.map",
-    "main.fe090c29.js.map": "/react-portfolio/static/js/main.fe090c29.js.map",
+    "main.19a06aa9.js.map": "/react-portfolio/static/js/main.19a06aa9.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c66a482.css",
-    "static/js/main.fe090c29.js"
+    "static/js/main.19a06aa9.js"
   ]
 }
