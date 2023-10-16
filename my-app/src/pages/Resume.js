@@ -13,7 +13,7 @@ function DownloadComponent() {
           <ResumeItem />
           {/* Adding the download link below the ResumeItem */}
           <div className={classes.downloadLink}>
-            <a href="my-app/public/JoshuaOBrienRS.pdf" download>Download my Resume</a>
+            <a href="pdf/JoshuaOBrienRS.pdf" download>Download my Resume</a>
           </div>
         </article>
       </PageContainer>
