@@ -12,7 +12,7 @@ function ResumeItem() {
     return (
         <>
             <ResumeModule
-                pdfPath='my-app/public/JoshuaOBrienRS.pdf'
+                pdfPath="/JoshuaOBrienRS.pdf"
                 name='Resume'
             />
         </>
