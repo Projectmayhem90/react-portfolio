@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c66a482.css",
-    "main.js": "/static/js/main.624a6d56.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/STEAMUPHOME.png": "/static/media/STEAMUPHOME.a8fd8fc8ffd882826bb5.png",
-    "static/media/VirtuosoBandPage.png": "/static/media/VirtuosoBandPage.00f08b947a2017e1afb2.png",
-    "static/media/pokedexmin.png": "/static/media/pokedexmin.d55eb894ee3284ef7ad9.png",
-    "static/media/profile.jpg": "/static/media/profile.43f9689eaf7de8990e0b.jpg",
-    "static/media/18.ch18.png": "/static/media/18.ch18.d3eeac56b2fb952275b2.png",
-    "static/media/regexgist.png": "/static/media/regexgist.e49e6268277da3937636.png",
-    "static/media/JATE.png": "/static/media/JATE.65b072a552a11847d61e.png",
-    "static/media/Header-Do-SMTHG-GRT.jpg": "/static/media/Header-Do-SMTHG-GRT.3f1014bdf0d4d9b044af.jpg",
-    "index.html": "/index.html",
-    "main.7c66a482.css.map": "/static/css/main.7c66a482.css.map",
-    "main.624a6d56.js.map": "/static/js/main.624a6d56.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/www.joshuaobrien.net/static/css/main.7c66a482.css",
+    "main.js": "/www.joshuaobrien.net/static/js/main.83c5fb34.js",
+    "static/js/787.a2cb61a6.chunk.js": "/www.joshuaobrien.net/static/js/787.a2cb61a6.chunk.js",
+    "static/media/STEAMUPHOME.png": "/www.joshuaobrien.net/static/media/STEAMUPHOME.a8fd8fc8ffd882826bb5.png",
+    "static/media/VirtuosoBandPage.png": "/www.joshuaobrien.net/static/media/VirtuosoBandPage.00f08b947a2017e1afb2.png",
+    "static/media/pokedexmin.png": "/www.joshuaobrien.net/static/media/pokedexmin.d55eb894ee3284ef7ad9.png",
+    "static/media/profile.jpg": "/www.joshuaobrien.net/static/media/profile.43f9689eaf7de8990e0b.jpg",
+    "static/media/18.ch18.png": "/www.joshuaobrien.net/static/media/18.ch18.d3eeac56b2fb952275b2.png",
+    "static/media/regexgist.png": "/www.joshuaobrien.net/static/media/regexgist.e49e6268277da3937636.png",
+    "static/media/JATE.png": "/www.joshuaobrien.net/static/media/JATE.65b072a552a11847d61e.png",
+    "static/media/Header-Do-SMTHG-GRT.jpg": "/www.joshuaobrien.net/static/media/Header-Do-SMTHG-GRT.3f1014bdf0d4d9b044af.jpg",
+    "index.html": "/www.joshuaobrien.net/index.html",
+    "main.7c66a482.css.map": "/www.joshuaobrien.net/static/css/main.7c66a482.css.map",
+    "main.83c5fb34.js.map": "/www.joshuaobrien.net/static/js/main.83c5fb34.js.map",
+    "787.a2cb61a6.chunk.js.map": "/www.joshuaobrien.net/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c66a482.css",
-    "static/js/main.624a6d56.js"
+    "static/js/main.83c5fb34.js"
   ]
 }
