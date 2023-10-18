@@ -13,7 +13,7 @@ function DownloadComponent() {
           <ResumeItem />
           {/* Adding the download link below the ResumeItem */}
           <div className={classes.downloadLink}>
-            <a href="https://projectmayhem90.github.io/react-portfolio/JoshuaOBrienRS.pdf" download>View Resume</a>
+            <a href="https://www.joshuaobrien.net\JoshuaOBrienRS.pdf.pdf" download>View Resume</a>
           </div>
         </article>
       </PageContainer>
