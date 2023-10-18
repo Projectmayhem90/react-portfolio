@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7c66a482.css",
-    "main.js": "/react-portfolio/static/js/main.19a06aa9.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/STEAMUPHOME.png": "/react-portfolio/static/media/STEAMUPHOME.a8fd8fc8ffd882826bb5.png",
-    "static/media/VirtuosoBandPage.png": "/react-portfolio/static/media/VirtuosoBandPage.00f08b947a2017e1afb2.png",
-    "static/media/pokedexmin.png": "/react-portfolio/static/media/pokedexmin.d55eb894ee3284ef7ad9.png",
-    "static/media/profile.jpg": "/react-portfolio/static/media/profile.43f9689eaf7de8990e0b.jpg",
-    "static/media/18.ch18.png": "/react-portfolio/static/media/18.ch18.d3eeac56b2fb952275b2.png",
-    "static/media/regexgist.png": "/react-portfolio/static/media/regexgist.e49e6268277da3937636.png",
-    "static/media/JATE.png": "/react-portfolio/static/media/JATE.65b072a552a11847d61e.png",
-    "static/media/Header-Do-SMTHG-GRT.jpg": "/react-portfolio/static/media/Header-Do-SMTHG-GRT.3f1014bdf0d4d9b044af.jpg",
-    "index.html": "/react-portfolio/index.html",
-    "main.7c66a482.css.map": "/react-portfolio/static/css/main.7c66a482.css.map",
-    "main.19a06aa9.js.map": "/react-portfolio/static/js/main.19a06aa9.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.7c66a482.css",
+    "main.js": "/static/js/main.624a6d56.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/STEAMUPHOME.png": "/static/media/STEAMUPHOME.a8fd8fc8ffd882826bb5.png",
+    "static/media/VirtuosoBandPage.png": "/static/media/VirtuosoBandPage.00f08b947a2017e1afb2.png",
+    "static/media/pokedexmin.png": "/static/media/pokedexmin.d55eb894ee3284ef7ad9.png",
+    "static/media/profile.jpg": "/static/media/profile.43f9689eaf7de8990e0b.jpg",
+    "static/media/18.ch18.png": "/static/media/18.ch18.d3eeac56b2fb952275b2.png",
+    "static/media/regexgist.png": "/static/media/regexgist.e49e6268277da3937636.png",
+    "static/media/JATE.png": "/static/media/JATE.65b072a552a11847d61e.png",
+    "static/media/Header-Do-SMTHG-GRT.jpg": "/static/media/Header-Do-SMTHG-GRT.3f1014bdf0d4d9b044af.jpg",
+    "index.html": "/index.html",
+    "main.7c66a482.css.map": "/static/css/main.7c66a482.css.map",
+    "main.624a6d56.js.map": "/static/js/main.624a6d56.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c66a482.css",
-    "static/js/main.19a06aa9.js"
+    "static/js/main.624a6d56.js"
   ]
 }
