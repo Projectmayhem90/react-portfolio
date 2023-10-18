@@ -12,7 +12,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function App() {
   return (
-    <BrowserRouter basename='/react-portfolio'>
+    <BrowserRouter>
       <Routes>
         {/* <Route path="/about" element={<About />}></Route> */}
         <Route path="/work" element={<Work />}></Route>
