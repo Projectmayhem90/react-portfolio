@@ -17,29 +17,29 @@ body {
 
 /* Style the header */
 .header {
+  width: 100vw; /* 100% of the viewport width */
+  height: /* Choose the height you want for your header, for instance: */ 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  width: 100%;
-  height: 200px;
-  max-height: 100%;
-  overflow: hidden;
+  padding-bottom: 1rem;
 }
 
 .banner {
-  display: block;
-  width: 300%;
-  height: auto;
-  max-height: 100%;
+  max-width: 100%; /* Image won't exceed the container width */
+  max-height: 100%; /* Image won't exceed the container height */
+  object-fit: cover; /* The image will cover the area of the container while maintaining its aspect ratio */
 }
 
 .profileImg {
-  height: 22rem;
-  width: 22rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid;
-  border-radius: 8px;
-  overflow: hidden;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  padding-top: 2rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .profileImg img {
@@ -48,15 +48,17 @@ body {
   object-fit: contain;
 }
 
+
 /* Style the navigation links */
 nav ul {
-  list-style: none;
   display: flex;
   justify-content: center;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav li {
-  margin: 0 1rem;
+  margin: 0 15px; /* Adjust as necessary */
 }
 
 nav a {

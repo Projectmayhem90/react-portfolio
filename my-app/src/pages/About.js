@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './About.module.css';
 import PageContainer from '../components/containers/PageContainer';
-import Navigation from '../components/containers/Navigation';
 
 import profile from "../images/profile.jpg";
 
@@ -9,7 +8,6 @@ import profile from "../images/profile.jpg";
 function About(props) {
   return (
     <PageContainer title="Joshua OBrien">
-      <Navigation title="Joshua OBrien"/>
       <div className={classes.aboutHolder}>
         <img
           className="profileImg"

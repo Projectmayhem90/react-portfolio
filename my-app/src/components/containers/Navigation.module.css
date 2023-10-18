@@ -1,0 +1,55 @@
+nav {
+    position: absolute;
+    /* Absolute positioning inside the header */
+    right: 10px;
+    /* Right positioning for bottom-right alignment */
+    bottom: 10px;
+    /* Bottom positioning for bottom-right alignment */
+    display: flex;
+    /* To position the list items horizontally */
+}
+
+/* Removing list styles */
+
+nav ul {
+    list-style-type: none;
+    padding: 10;
+    margin: 0;
+    display: flex;
+}
+
+/* Styles for individual list items and links */
+
+nav li {
+    margin-left: 10px;
+    /* Space between boxes */
+}
+
+nav li a {
+    padding: 10px 15px;
+    /* Padding for the box around each link */
+    text-decoration: none;
+    /* Removing the default link underline */
+    color: #fff;
+    /* Setting link color to white or any other color you prefer */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background for the link box */
+    border-radius: 5px;
+    /* Slightly rounded corners for the boxes */
+    transition: 0.3s;
+    /* Smooth transition for hover effects */
+}
+
+/* Styles for link hover effect */
+
+nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Darker box on hover */
+}
+
+/* Styles for the active link */
+
+nav li .active {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Active link should have a darker box */
+}

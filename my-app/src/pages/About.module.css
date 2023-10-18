@@ -1,3 +1,4 @@
+
 .title {
     color: red;
 }
@@ -9,14 +10,30 @@
     object-fit: cover;
 }
 
-.aboutContent {
-    color: black;
-    margin-bottom: 2rem;
-    text-indent: 2em;
+@media (max-width: 768px) {
+    .aboutContent {
+        padding: 0.5rem;
+    }
 }
 
-.aboutContent div:first-of-type {
+@media (max-width: 480px) {
+    .aboutContent {
+        padding: 0.25rem;
+    }
+}
+
+.aboutContent {
+    border: 20px solid black;
+    padding-bottom: 3rem;
+    height:auto;
+    bottom: 5rem;
+    margin: auto;
+}
+
+.aboutContent div:first-of-type, .aboutText {
     text-indent: 2em;
+    border: 3px solid black;
+    padding: 3rem;
 }
 
 .aboutText {
@@ -45,6 +62,7 @@
        screen and (max-width: 481px) {
     .aboutHolder {
         flex-direction: column;
+        padding-top: 5rem;
     }
 
     .aboutHolder img {
