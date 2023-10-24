@@ -14,7 +14,7 @@ function Header(props) {
   return (
     <header className="header" style={headerStyle}>
       <Navigation />
-      {/* Other header content if any */}
+      {/* Other header content if needed */}
     </header>
   );
 }

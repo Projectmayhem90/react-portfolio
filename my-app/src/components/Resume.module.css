@@ -1,23 +1,24 @@
-/* Container that holds the "View Resume" link */
+
 .container {
-    display: flex; /* Using flexbox for centering */
-    justify-content: center; /* Centering horizontally */
-    align-items: center; /* Centering vertically */
-    height: 50vh; /* Taking the full viewport height */
+    display: flex;
+    justify-content: left; 
+    align-items: center;
+    height: 50vh;
+    padding-right: 50px; 
 }
 
-/* Styles for the "View Resume" link */
+
 .viewResumeLink {
-    font-size: 24px; /* Increasing the font size */
-    padding: 15px 30px; /* Adding space around the text */
-    border: 2px solid #000; /* Adding a border around the link */
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
-    text-decoration: none; /* Removing the default underline */
-    color: #000; /* Text color */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-size: 40px;
+    padding: 15px 30px; 
+    border: 2px solid #000; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    text-decoration: none; 
+    color: #000; 
+    transition: background-color 0.3s; 
 }
 
-/* Hover effect for the "View Resume" link */
+
 .viewResumeLink:hover {
-    background-color: rgba(255, 255, 255, 1); /* Making the background fully opaque on hover */
+    background-color: rgba(255, 255, 255, 1); 
 }

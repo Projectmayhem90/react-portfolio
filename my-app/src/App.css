@@ -17,8 +17,8 @@ body {
 
 /* Style the header */
 .header {
-  width: 100vw; /* 100% of the viewport width */
-  height: /* Choose the height you want for your header, for instance: */ 400px;
+  width: 100vw; 
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,9 +27,9 @@ body {
 }
 
 .banner {
-  max-width: 100%; /* Image won't exceed the container width */
-  max-height: 100%; /* Image won't exceed the container height */
-  object-fit: cover; /* The image will cover the area of the container while maintaining its aspect ratio */
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: cover;
   height: 50vh;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 
-/* Style the navigation links */
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 15px; /* Adjust as necessary */
+  margin: 0 15px; 
 }
 
 nav a {
@@ -71,14 +71,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Style the page content */
+
 main {
   margin: 2rem auto;
   max-width: 960px;
   padding: 0 1rem;
 }
 
-/* Style headings */
 h1,
 h2,
 h3,
@@ -88,13 +87,11 @@ h6 {
   margin: 1rem 0;
 }
 
-/* Style paragraphs */
 p {
   line-height: 1.5;
   text-indent: 2em;
 }
 
-/* Style images */
 img {
   max-width: 100%;
   height: auto;
@@ -119,14 +116,13 @@ img {
   padding: 10;
 }
 
-/* Color for the footer icons */
+
 .contactLink svg {
   color: black;
   transition: color 0.3s ease;
-  /*   smooth transition for hover effect */
 }
 
-/* Hover effect for the footer icons */
+
 .contactLink:hover svg {
   color: blue;
 }

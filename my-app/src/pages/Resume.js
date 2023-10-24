@@ -9,7 +9,7 @@ function DownloadComponent() {
       <PageContainer title='Resume'>
         <article className={classes.resumeBox}>
           <ResumeItem />
-          {/* Adding the download link below the ResumeItem */}
+          {/* future dev as needed*/}
         </article>
       </PageContainer>
     </div>

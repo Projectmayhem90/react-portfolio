@@ -49,7 +49,7 @@
 
 .aboutHolder {
     margin: auto;
-    max-width: 100vw; /* Set it here instead of multiple media queries */
+    max-width: 100vw; 
     display: flex;
     justify-content: center;
     align-items: center;
