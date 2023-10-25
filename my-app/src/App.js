@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Work from './pages/Work';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import DownloadComponent from './pages/Resume.js'
 import Footer from './components/containers/Footer';
-import Resume from './pages/Resume';
 import './App.css';
 import { pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -18,7 +18,7 @@ function App() {
         <Route path="/work" element={<Work />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/" element={<About />} />
-        <Route path="/resume" element={<Resume />}></Route>
+        <Route path="/JoshuaOBrienRS.pdf.pdf" element={<DownloadComponent />}></Route>
         {/* Catch-all route */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

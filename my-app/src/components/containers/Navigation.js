@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Navigation.module.css';
+import ResumeItem from '../ResumeModule';
+
+
 
 function Navigation() {
   return (
@@ -22,9 +25,7 @@ function Navigation() {
           </NavLink>
         </li>
         <li className={styles.navItem}>
-          <NavLink to="/resume" activeClassName={styles.active}>
-            Resume
-          </NavLink>
+          <ResumeItem />
         </li>
       </ul>
     </nav>
@@ -32,3 +33,4 @@ function Navigation() {
 }
 
 export default Navigation;
+

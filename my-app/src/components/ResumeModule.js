@@ -4,7 +4,7 @@ import classes from './Resume.module.css';
 function ResumeModule(props) {
     return (
         <div className={classes.container}>
-            <a href={props.pdfPath} className={classes.viewResumeLink}>View Resume</a>
+            <a href={props.pdfPath} className={classes.viewResumeLink}>Resume</a>
         </div>
     );
 }

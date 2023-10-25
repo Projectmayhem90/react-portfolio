@@ -1,24 +1,21 @@
 :root {
-  --bg: pink;
+  --bg: #e4f4ff;
   --secondary: pink;
-  --tertiary: rgba(49, 52, 61, 1);
-  --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
 }
 
 
-/* Set global styles */
 body {
   background-color: var(--bg);
   margin: 0;
   padding: 0;
+  font-size: 1.25rem;
   font-family: Arial, sans-serif;
 }
 
-/* Style the header */
-.header {
-  width: 100vw; 
-  height: 400px;
+/*
+.header { 
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,11 +24,13 @@ body {
 }
 
 .banner {
-  max-width: 100%; 
-  max-height: 100%; 
+ 
+  max-height: 100px; 
   object-fit: cover;
   height: 50vh;
 }
+*/
+
 
 .profileImg {
   width: 100%;
@@ -99,30 +98,60 @@ img {
 }
 
 .footer {
-  color: var(--secondary);
   text-align: center;
   font-size: 4rem;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
 }
 
 .footerIcons {
   justify-content:center;
-  column-gap: 60px;
+  list-style-type: none;
+  column-gap: 100px;
   display: flex;
-  overflow: hidden;
-  padding: 10;
+  padding: 0;
 }
 
 
 .contactLink svg {
-  color: black;
+  color: #0c4d7b;
   transition: color 0.3s ease;
 }
 
 
 .contactLink:hover svg {
-  color: blue;
+  color: rgb(97, 169, 240);
+}
+
+
+@media screen and (max-width: 1366px) {
+  * {
+    scroll-margin: 90px;
+  }
+
+  nav {
+    height: 80px;
+  }
+
+  header,
+  main {
+    text-align: center;
+    font-size: 0.7em;
+    flex-direction: column;
+  }
+
+  aside {
+    font-size: 0.85rem;
+    width: 20%;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .contact {
+    height: 9rem;
+  }
+
+  .message {
+    max-width: 80vw;
+  }
 }

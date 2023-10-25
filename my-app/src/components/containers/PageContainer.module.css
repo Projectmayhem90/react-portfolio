@@ -1,10 +1,9 @@
+
 .pageBody {
-    height: calc(90vh - 62px);
-    padding: 4rem;
-    margin: 0 auto;
-    font-size: 1.4rem;
-    overflow-y: auto;
-  }
+  margin: 0 auto;
+  font-size: 1.3rem;
+  overflow-y: auto;
+}
   
   @media screen and (max-width: 1366px) {
     .pageBody {
@@ -17,8 +16,6 @@
   @media screen and (max-width: 1980px) {
     .pageBody {
       height: unset;
-      padding: 0rem 1rem 1rem;
-      overflow-y: scroll;
     }
   }
 

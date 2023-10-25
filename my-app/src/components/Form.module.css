@@ -1,30 +1,31 @@
 /* form.module.css */
 
-/* Form container */
 .form-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f5f5f5;
     border-radius: 5px;
+    border-color: black;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
-  
-  /* Form fields */
-  .form-field {
+
+
+.form-field {
     display: flex;
     flex-direction: column;
+    width: 1vw;
     margin-bottom: 20px;
 }
-  
-  .form-field label {
+
+.form-field label {
     font-weight: bold;
     margin-bottom: 5px;
 }
-  
-  .form-field input[type='text'],
-  .form-field input[type='email'],
-  .form-field textarea {
+
+.form-field input[type='text'],
+.form-field input[type='email'],
+.form-field textarea {
     border: none;
     border-radius: 3px;
     padding: 10px;
@@ -33,30 +34,33 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     resize: vertical;
 }
-  
+
 .form-field input[type='text'],
 .form-field input[type='email'] {
     height: 40px;
+    width: 1px;
 }
-  
+
 .form-field textarea {
     min-height: 120px;
+    width: auto;
 }
-  
-  /* Form submit button */
+
+
 .form-submit {
     display: inline-block;
-    padding: 10px 20px;
+    padding: auto;
+    padding-top: 1vw;
     background-color: #007bff;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
     transition: all 0.2s ease;
 }
-  
+
 .form-submit:hover {
     background-color: #0056b3;
     cursor: pointer;
@@ -65,41 +69,47 @@
 .form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* center the form horizontally */
+    align-items: center;
+    padding-top: 3vw;
+    gap: .50vw;
 }
-  
+
 .input,
 .textarea {
     padding: 8px;
     text-align: center;
     margin: 8px;
-    border: none;
+    border: solid;
     border-radius: 4px;
-    background-color: #f1f1f1;
-    width: 100%; /* make the input and textarea boxes take up the full width of the form */
-    box-sizing: border-box; /* include padding and border in the element's total width and height */
+    border-color: black;
+    background-color:#bccbda;
+    width: 40vw;
+    box-sizing: border-box;
+    border: rgba(1, 1, 1, 0.3);
+    border-color: black;
 }
-  
+
 .textarea {
-    height: 150px; /* set the height of the textarea to be taller */
+    height: 150px;
+    width: 40vw;
 }
-  
+
 .label {
     margin: 8px;
 }
-  
+
 .button {
-    background-color: #4CAF50;
+    background-color: #0c4d7b;
     color: white;
-    padding: 12px 20px;
+    padding: 20px 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 8px;
+    margin: 2vw;
 }
-  
+
 .button:hover {
-    background-color: #45a049;
+    background-color: rgb(97, 169, 240);
 }
 
 .error {
@@ -107,8 +117,8 @@
     font-size: 0.8rem;
     margin-top: 0.5rem;
 }
-  
-  .error-container {
+
+.error-container {
     display: flex;
     flex-direction: column;
     align-items: center;

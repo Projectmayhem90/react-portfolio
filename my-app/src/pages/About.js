@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './About.module.css';
 import PageContainer from '../components/containers/PageContainer';
 
+
 import profile from "../images/profile.jpg";
 
 
@@ -10,11 +11,10 @@ function About(props) {
     <PageContainer title="Joshua OBrien">
       <div className={classes.aboutHolder}>
         <img
-          className="profileImg"
+          className={classes.profileImage}
           src={profile}
           alt="" />
         <div className={classes.aboutContent}>
-          <br /> <br />
             Throughout my professional journey in my twenties, I underwent a range of occupations without feeling a sense of passion towards any particular field. However, in 2022, I made a conscious decision to pursue a long-held aspiration of mine - web-based coding.
           My work history boasts diverse experiences such as serving as a Construction Project Deployment Manager, with responsibilities that encompassed supervising significant multi-million dollar remodels. I also held the position of a Geek Squad Manager, overseeing daily interactions with PC repair and Car installation. In both roles, I honed my skills in employee development and training.
           <br />
