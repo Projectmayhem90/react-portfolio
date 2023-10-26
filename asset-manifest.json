@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa456771.css",
-    "main.js": "/static/js/main.d23bcd28.js",
+    "main.css": "/static/css/main.e4b323f0.css",
+    "main.js": "/static/js/main.f5894a37.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/STEAMUPHOME.png": "/static/media/STEAMUPHOME.a8fd8fc8ffd882826bb5.png",
     "static/media/VirtuosoBandPage.png": "/static/media/VirtuosoBandPage.00f08b947a2017e1afb2.png",
     "static/media/pokedexmin.png": "/static/media/pokedexmin.d55eb894ee3284ef7ad9.png",
-    "static/media/profile.jpg": "/static/media/profile.43f9689eaf7de8990e0b.jpg",
     "static/media/18.ch18.png": "/static/media/18.ch18.d3eeac56b2fb952275b2.png",
     "static/media/regexgist.png": "/static/media/regexgist.e49e6268277da3937636.png",
+    "static/media/profile.jpg": "/static/media/profile.321a1276254ec7f8584c.jpg",
     "static/media/JATE.png": "/static/media/JATE.65b072a552a11847d61e.png",
     "static/media/Header-Do-SMTHG-GRT.jpg": "/static/media/Header-Do-SMTHG-GRT.3f1014bdf0d4d9b044af.jpg",
     "index.html": "/index.html",
-    "main.aa456771.css.map": "/static/css/main.aa456771.css.map",
-    "main.d23bcd28.js.map": "/static/js/main.d23bcd28.js.map",
+    "main.e4b323f0.css.map": "/static/css/main.e4b323f0.css.map",
+    "main.f5894a37.js.map": "/static/js/main.f5894a37.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa456771.css",
-    "static/js/main.d23bcd28.js"
+    "static/css/main.e4b323f0.css",
+    "static/js/main.f5894a37.js"
   ]
 }
