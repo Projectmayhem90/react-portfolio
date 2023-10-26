@@ -1,15 +1,38 @@
 .header { 
   height: 15vw;
   max-width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   padding-top: 0.25%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.headerContainer {
+  display: block;
+}
+
+.header { 
+  height: 15vw;
+  max-width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigationContainer {
+  width: 100%;
+  background-color: #3d89d5; /* Optional: adjust as necessary */
+  /* Additional styles for your navigation if required */
+}
+
+
+@media screen and (max-width: 768px) {
+  .header {
+      height: 200px; 
+  }
+}
+
 
 
 @media screen and (max-width: 768px) {

@@ -3,22 +3,20 @@
 }
 
 img {
-    display: flex;
+
     height: 35rem;
-    width: 20rem;
+    width: 26.5rem;
     border-radius: 10px;
-    margin-top: 2vw;
-    align-content: left;
+    margin-top: 1vw;
+    margin-left: 6vw;
 }
 
 
 .aboutContent {
-    display: flex;
     height: auto;
-    text-align: left;
-    align-content: right;
-    border: 0cap;
-
+    margin-right: 8vw;
+    margin-top: 1vw;
+    
 }
 
 .aboutContent div:first-of-type,
@@ -30,24 +28,22 @@ img {
     margin: auto;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
-    text-indent: 2em;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 .about {
-    height: 10rem;
+    height: 1rem;
 }
 
 .aboutHolder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    justify-items: center;
     grid-gap: 10px;
     align-items: center;
-    text-align: center;
     color: black;
-    margin-top: 5vw;
+    margin-top: 2vw;
 }
 
 

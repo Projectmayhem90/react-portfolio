@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* <Route path="/about" element={<About />}></Route> */}
-        <Route path="/work" element={<Work />}></Route>
+        <Route path="/portfolio" element={<Work />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/" element={<About />} />
         <Route path="/JoshuaOBrienRS.pdf.pdf" element={<DownloadComponent />}></Route>

@@ -9,9 +9,11 @@ function Header(props) {
   };
 
   return (
-    <header className={styles.header} style={headerStyle}>
+    <header className={styles.headerContainer}>
+      <div className={styles.header} style={headerStyle}>
+         {/* Other header content if needed */}
+      </div>
       <Navigation />
-      {/* Other header content if needed */}
     </header>
   );
 }
