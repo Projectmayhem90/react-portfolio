@@ -69,3 +69,114 @@ nav li a:active.hover {
     transition: transform 0.3s, color 0.3s;
 }
   
+
+@media screen and (max-width: 767px) {
+
+    .nameText {
+        font-size: 10px;
+        margin-left: 0px;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav li a {
+        padding: 8px 5px;
+        font-size: 10px;
+    }
+
+    nav {
+        margin-right: 0px;
+    }
+
+    .navigationContainer {
+        padding: 0 2px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .nameText {
+        font-size: 10px;
+    }
+
+    nav li a {
+        padding: 10px 20px;
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2700px) {
+    .navigationContainer {
+        width: 99.6%;
+        background-color: #e4f4ff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 4px outset #778fa1; */
+        border-radius: 3.0px;
+        transition: border-color 0.3s ease;
+        background-size: cover;
+    }
+
+    .nameText {
+        font-size: 55.5px;
+        text-transform: uppercase;
+        letter-spacing: 2.8px;
+        font-weight: bold;
+        margin-left: 20px;
+        padding: 20px 0;
+        background: linear-gradient(45deg, #0c4d7b, rgb(97, 169, 240));
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, color 0.3s;
+    }
+    
+    nav {
+        display: flex;
+        margin-right: 20px;
+    }
+    
+    
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    
+    
+    nav li {
+        margin-left: 1px;
+        
+    }
+    
+    nav li a {
+        padding: 10px 45px;
+        text-decoration: none;
+        cursor: pointer;
+        color: #fff;
+        background-color: rgba(16, 66, 128, 0.99);
+        transition: color 0.3s ease;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    
+    
+    nav li a:hover {
+        background-color: rgb(97, 169, 240);
+        
+    }
+    
+    
+    nav li a:active,
+    nav li a:active.hover {
+        background-color: rgba(242, 238, 249, 0.8); 
+    }
+}

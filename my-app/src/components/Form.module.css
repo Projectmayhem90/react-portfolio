@@ -82,7 +82,7 @@
     border: solid;
     border-radius: 4px;
     border-color: black;
-    background-color:#bccbda;
+    background-color: #bccbda;
     width: 40vw;
     box-sizing: border-box;
     border: rgba(1, 1, 1, 0.3);
@@ -126,6 +126,18 @@
 
 @media screen and (max-width: 480px) {
     .message {
-      width: 21rem;
+        width: 21rem;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .form {
+        display: flex;
+        font-size: 1rem;
+    }
+
+    .input,
+    .textarea {
+        width: 80%;
     }
 }

@@ -2,51 +2,103 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 2rem;
-    padding: 0 ;
+    grid-gap: 2px;
+    align-items: center;
     text-align: center;
     color: black;
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
 
 .workBox img {
-    height: 18rem;
+    height: 20rem;
     width: 32rem;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 
 
-.workModule {
-    display: inline-block;
-    width: 32rem;
-    margin: 0 auto;
-}
+
 
 @media screen and (max-width: 1366px) {
-    .workBox {
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .workModule {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: unset;
-      padding: 0;
-      margin: 0;
-    }
-  
-    .workBox p {
-      width: unset;
-    }
-  
-    .workBox img {
-      width: 90vw;
-      height: 51vw;
-    }
+  .workBox {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .workModule {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: unset;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .workBox img {
+    width: 90vw;
+    height: 51vw;
+  }
 }
-  
+
+@media screen and (max-width: 767px) {
+  .workBox {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .workBox img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .workModule {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .workBox {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .workBox img {
+    width: 85%;
+    height: auto;
+  }
+
+  .workModule {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2700px) {
+  .workBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 80px;
+    color: black;
+    margin-right: 2%;
+  }
+
+  .workBox img {
+    width: auto;
+    margin-left: 4.5vw;
+    border-radius: 15px;
+  }
+
+  .workModule {
+    width: auto;
+    font-size: 1.5rem;
+    margin-left: 5vw;
+  }
+}
+

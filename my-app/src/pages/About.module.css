@@ -8,7 +8,7 @@ img {
     width: 26.5rem;
     border-radius: 10px;
     margin-top: 1vw;
-    margin-left: 6vw;
+    margin-left: 8.5vw;
 }
 
 
@@ -43,7 +43,8 @@ img {
     grid-gap: 10px;
     align-items: center;
     color: black;
-    margin-top: 2vw;
+    margin-top: 1vw;
+    margin-right: 3vw;
 }
 
 
@@ -57,4 +58,105 @@ img {
       margin-bottom: 2rem;
     }
 }
-  
+
+@media screen and (max-width: 767px) {
+    /* Mobile portrait style */
+    img {
+        height: auto; 
+        width: 80%; 
+        margin: 1rem auto;
+    }
+
+    .aboutContent {
+        margin: 1rem 2vw;
+    }
+
+    .aboutText {
+        font-size: 1.5rem;
+    }
+
+    .aboutHolder {
+        grid-template-columns: 1fr; 
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Mobile landscape style */
+    img {
+        height: auto; 
+        width: 70%; 
+        margin: 1rem auto;
+    }
+
+    .aboutContent {
+        margin: 1rem 4vw;
+    }
+
+    .aboutText {
+        font-size: 1.7rem;
+    }
+
+    .aboutHolder {
+        grid-template-columns: 1fr; 
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1300px) {
+    img {
+        height: 15%; 
+        width: 75%; 
+        margin: .8rem auto;
+    }
+
+    .aboutContent {
+        margin: 1rem .30vw;
+        font-size: 1.2rem;
+    }
+
+    .aboutText {
+        font-size: 1.3rem;
+    }
+
+    .aboutHolder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: 5px;
+        align-items: center;
+        color: black;
+        margin-top: 1vw;
+    }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2700px) {
+    img {
+        height: 10%; 
+        width: 36%; 
+        border-radius: 10px;
+        margin-top: 1vw;
+        margin-left: 26vw;
+    }
+
+    .aboutContent {
+        
+        margin-right: 10vw;
+        display: flex;
+        font-size: 1.58rem;
+        
+    }
+
+    .aboutText {
+        font-size: 2.3rem;
+    }
+
+    .aboutHolder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: 5px;
+        align-items: center;
+        color: black;
+        margin-top: 1vw;
+        margin-right: 3vw;
+    }
+}

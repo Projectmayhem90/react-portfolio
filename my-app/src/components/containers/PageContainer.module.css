@@ -1,22 +1,4 @@
 
-.pageBody {
-  margin: 0 auto;
-  font-size: 1.3rem;
-  overflow-y: auto;
-}
-  
-  @media screen and (max-width: 1366px) {
-    .pageBody {
-      height: unset;
-      padding: 5.5rem 2rem 5rem;
-      overflow-y: scroll;
-    }
-  }
 
-  @media screen and (max-width: 1980px) {
-    .pageBody {
-      height: unset;
-    }
-  }
 
   

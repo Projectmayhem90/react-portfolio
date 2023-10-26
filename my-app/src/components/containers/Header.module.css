@@ -22,22 +22,43 @@
 
 .navigationContainer {
   width: 100%;
-  background-color: #3d89d5; /* Optional: adjust as necessary */
-  /* Additional styles for your navigation if required */
+  background-color: #3d89d5;
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header {
-      height: 200px; 
+
+    height: 25vw;
+  }
+
+
+  .navigationContainer {
+    padding: 1px 5px;
   }
 }
 
 
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1366px) {
   .header {
-      height: 200px; 
+
+    height: 20vw;
+  }
+
+
+  .navigationContainer {
+    padding: 10px 5px;
+  }
+}
+
+
+@media screen and (min-width: 1367px) and (max-width: 1980px) {
+  .header {
+
+    height: 17vw;
+  }
+
+  .navigationContainer {
+    padding: 15px 30px;
   }
 }
 
