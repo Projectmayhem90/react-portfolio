@@ -24,7 +24,7 @@ function WorkItem() {
                 deploy='https://retrotechcode.github.io/Pokedex-Mini'
                 image={pokedexmin}
                 Name='Pokedex Mini'
-                desc={`The Pokedex Mini application allows users to search for any Pokémon used in the many forms of media created by the Japanese video game company Game freak. This will include the name or national dex number of each individual Pokémon as well as a few other items . When the user searches they will be redirected to a results page. This product used a few industry staples such as an API, JS, HTML.`}
+                desc={`The Pokedex Mini application allows users to search Pokémon dex entries used in the many forms of media created by the Japanese video game company Game Freak. This product used a few industry staples such as an API, JS, HTML.`}
                 github='https://github.com/RetroTechCode/Pokedex-Mini'
             />
             <WorkModule

@@ -15,6 +15,10 @@
     border-radius: 15px;
 }
 
+.workModule {
+  text-align: center;
+}
+
 
 
 
@@ -66,10 +70,29 @@
   .workBox {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+    padding-left: 1rem;
   }
 
   .workBox img {
     width: 85%;
+    height: auto;
+  }
+
+  .workModule {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .workBox {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.0rem;
+    padding-left: 1rem;
+  }
+
+  .workBox img {
+    width: 60%;
     height: auto;
   }
 
@@ -87,18 +110,45 @@
     grid-gap: 80px;
     color: black;
     margin-right: 2%;
+    text-align: center;
   }
 
   .workBox img {
-    width: auto;
+    width: 20vw;
     margin-left: 4.5vw;
     border-radius: 15px;
   }
 
   .workModule {
     width: auto;
-    font-size: 1.5rem;
-    margin-left: 5vw;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 2.2vw;
   }
 }
 
+@media screen and (min-width: 1450px) and (max-width: 1899px) {
+  .workBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+    color: black;
+    margin-right: 2%;
+    text-align: center;
+  }
+
+  .workBox img {
+    width: 30vw;
+    margin-left: 2.5vw;
+    border-radius: 15px;
+    position:relative;
+  }
+
+  .workModule {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 2.2vw;
+
+  }
+}

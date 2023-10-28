@@ -4,33 +4,27 @@
 
 img {
 
-    height: 35rem;
-    width: 26.5rem;
+    height: 20rem;
+    width: 20.5rem;
     border-radius: 10px;
     margin-top: 1vw;
-    margin-left: 8.5vw;
+    margin-left: 7vw;
 }
 
 
 .aboutContent {
     height: auto;
-    margin-right: 8vw;
-    margin-top: 1vw;
-    
+    margin-right: 8.5vw;
+    margin-top: -1.60vw; 
+    margin-left: -7vw;
+    text-align: left;
+    font-size:  1.18rem;
+    margin-bottom: -2.6rem;
+
 }
 
-.aboutContent div:first-of-type,
-.aboutText {
-    padding: 0rem;
-}
 
-.aboutText {
-    margin: auto;
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: left;
-    align-items: center;
-}
+
 
 .about {
     height: 1rem;
@@ -45,6 +39,7 @@ img {
     color: black;
     margin-top: 1vw;
     margin-right: 3vw;
+    text-align: left;
 }
 
 
@@ -63,7 +58,7 @@ img {
     /* Mobile portrait style */
     img {
         height: auto; 
-        width: 80%; 
+        width: 70%; 
         margin: 1rem auto;
     }
 
@@ -84,16 +79,20 @@ img {
     /* Mobile landscape style */
     img {
         height: auto; 
-        width: 70%; 
-        margin: 1rem auto;
+        width: 40%; 
+        margin-top: 1rem;
     }
 
     .aboutContent {
         margin: 1rem 4vw;
+        font-size: 1.2rem;
+        margin-left: 7rem;
+        margin-right: -1rem;
     }
 
     .aboutText {
         font-size: 1.7rem;
+        text-align: center;
     }
 
     .aboutHolder {
@@ -101,11 +100,11 @@ img {
     }
 }
 
-@media screen and (min-width: 1023px) and (max-width: 1300px) {
+@media screen and (min-width: 1023px) and (max-width: 1370px) {
     img {
         height: 15%; 
-        width: 75%; 
-        margin: .8rem auto;
+        width: 69%; 
+        margin-top: 2rem;
     }
 
     .aboutContent {
@@ -128,35 +127,34 @@ img {
     }
 }
 
-@media screen and (min-width: 1900px) and (max-width: 2700px) {
+@media screen and (min-width: 2100px) and (max-width: 2700px) {
     img {
-        height: 10%; 
-        width: 36%; 
-        border-radius: 10px;
-        margin-top: 1vw;
-        margin-left: 26vw;
+
+        height: 1vw;
+        width: 15vw;
+        border-radius: 4px;
+        margin-top: 2vw;
+        margin-left: 12vw;
+        margin-bottom: 1rem;
     }
 
     .aboutContent {
-        
-        margin-right: 10vw;
-        display: flex;
-        font-size: 1.58rem;
-        
+        margin-right: 22.5vw; 
+        margin-top: .01vw;
+        margin-left: -8.5vw;
+        text-align: left;
+        font-size:  1.34rem;
+        letter-spacing: .02rem;
+    
     }
-
-    .aboutText {
-        font-size: 2.3rem;
-    }
+    
 
     .aboutHolder {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
-        grid-gap: 5px;
+        grid-gap: -2px;
         align-items: center;
         color: black;
-        margin-top: 1vw;
-        margin-right: 3vw;
     }
 }

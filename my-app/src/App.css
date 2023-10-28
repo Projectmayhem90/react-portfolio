@@ -1,5 +1,5 @@
 :root {
-  --bg: #e4f4ff;
+  --bg: #a9c4d6;
   --secondary: pink;
   --light: rgba(238, 238, 247, 1);
 }
@@ -7,8 +7,6 @@
 
 body {
   background-color: var(--bg);
-  margin: 0;
-  padding: 0;
   font-size: 1.25rem;
   font-family: Arial, sans-serif;
 }
@@ -71,11 +69,6 @@ nav a:hover {
 }
 
 
-main {
-  margin: 2rem auto;
-  max-width: 960px;
-  padding: 0 1rem;
-}
 
 h1,
 h2,
@@ -100,6 +93,7 @@ img {
 .footer {
   text-align: center;
   font-size: 4rem;
+  justify-content: center;
 }
 
 .footerIcons {
@@ -107,7 +101,6 @@ img {
   list-style-type: none;
   column-gap: 100px;
   display: flex;
-  padding: 0;
 }
 
 
