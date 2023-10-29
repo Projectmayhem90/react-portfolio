@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fc8d743.css",
-    "main.js": "/static/js/main.a593bb88.js",
+    "main.css": "/static/css/main.5f9fe768.css",
+    "main.js": "/static/js/main.3297d27f.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/STEAMUPHOME.png": "/static/media/STEAMUPHOME.a8fd8fc8ffd882826bb5.png",
     "static/media/VirtuosoBandPage.png": "/static/media/VirtuosoBandPage.00f08b947a2017e1afb2.png",
@@ -10,13 +10,14 @@
     "static/media/regexgist.png": "/static/media/regexgist.e49e6268277da3937636.png",
     "static/media/profile.jpg": "/static/media/profile.321a1276254ec7f8584c.jpg",
     "static/media/JATE.png": "/static/media/JATE.65b072a552a11847d61e.png",
+    "static/media/Header-Do-SMTHG-GRT.jpg": "/static/media/Header-Do-SMTHG-GRT.3f1014bdf0d4d9b044af.jpg",
     "index.html": "/index.html",
-    "main.9fc8d743.css.map": "/static/css/main.9fc8d743.css.map",
-    "main.a593bb88.js.map": "/static/js/main.a593bb88.js.map",
+    "main.5f9fe768.css.map": "/static/css/main.5f9fe768.css.map",
+    "main.3297d27f.js.map": "/static/js/main.3297d27f.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fc8d743.css",
-    "static/js/main.a593bb88.js"
+    "static/css/main.5f9fe768.css",
+    "static/js/main.3297d27f.js"
   ]
 }
