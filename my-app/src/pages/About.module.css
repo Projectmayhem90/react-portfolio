@@ -5,20 +5,20 @@
 img {
 
     height: 20rem;
-    width: 20.5rem;
+    width: 19rem;
     border-radius: 10px;
     margin-top: 1vw;
-    margin-left: 7vw;
+    margin-left: 4.5vw;
 }
 
 
 .aboutContent {
     height: auto;
-    margin-right: 8.5vw;
+    margin-right: 11.5vw;
     margin-top: -1.60vw; 
-    margin-left: -7vw;
+    margin-left: -10vw;
     text-align: left;
-    font-size:  1.18rem;
+    font-size:  1.125rem;
     margin-bottom: -2.6rem;
 
 }
@@ -134,20 +134,20 @@ img {
     img {
 
         height: 2vw;
-        width: 17vw;
+        width: 15.2vw;
         border-radius: 4px;
         margin-top: 2vw;
-        margin-left: 17vw;
+        margin-left: 23vw;
         margin-bottom: 1rem;
     }
 
     .aboutContent {
-        margin-right: 21.5vw; 
+        margin-right: 20.5vw; 
         margin-top: .01vw;
-        margin-left: -4.5vw;
+        margin-left: -3.5vw;
         text-align: left;
-        font-size:  1.38rem;
-        letter-spacing: .02rem;
+        font-size:  1.30rem;
+        letter-spacing: .03rem;
     
     }
     
