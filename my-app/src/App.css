@@ -64,8 +64,8 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
-  text-decoration: underline;
+nav li a.active {
+  text-decoration: underline !important;
 }
 
 body {

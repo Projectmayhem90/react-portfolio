@@ -27,7 +27,9 @@ nav li a {
     background-color: rgba(16, 66, 128, 0.99);
     transition: color 0.3s ease;
     border-radius: 5px;
+    letter-spacing: .13rem;
     transition: 0.3s;
+    justify-content: center;
 }
 
 
@@ -37,7 +39,9 @@ nav li a:hover {
 }
 
 
-nav li a:active,
+nav li a.active {
+    text-decoration: underline !important;
+}
 nav li a:active.hover {
     background-color: rgba(242, 238, 249, 0.8); 
 }
@@ -100,30 +104,31 @@ nav li a:active.hover {
 @media screen and (max-width: 767px) {
 
     .nameText {
-        font-size: 12px;
-        margin-left: 0px;
+        font-size: 14px;
+        margin-left: 6px;
+        margin-right: 10px;
+        margin-bottom: -1.1rem;
     }
 
     nav ul {
         justify-content: center;
     }
 
-    nav li a {
-        padding: 8px 5px;
-        font-size: 15px;
-    }
 
     nav {
         margin-right: 0px;
+        padding: -1rem;
     }
 
     .navigationContainer {
         padding: 0 2px;
         margin-bottom: 1rem;
+        justify-content:baseline;
     }
 
     nav li a {
-        padding: 10px 12px;
+        padding: 12px 10px;
+        padding-left: 1rem;
         text-decoration: none;
         cursor: pointer;
         color: #fff;
@@ -132,11 +137,12 @@ nav li a:active.hover {
         border-radius: 5px;
         transition: 0.3s;
         font-size: .4rem;
+
     }
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1080px) {
 
     .navigationContainer {
         width: 99.6%;
@@ -241,7 +247,7 @@ nav li a:active.hover {
     
     nav {
         display: flex;
-        margin-right: 20px;
+        margin-right: 40px;
     }
     
     
@@ -256,12 +262,13 @@ nav li a:active.hover {
     
     
     nav li {
-        margin-left: 1px;
+        margin-left: 10px;
         
     }
     
     nav li a {
         padding: 10px 45px;
+        letter-spacing: .2rem;
         text-decoration: none;
         cursor: pointer;
         color: #fff;
@@ -269,6 +276,8 @@ nav li a:active.hover {
         transition: color 0.3s ease;
         border-radius: 5px;
         transition: 0.3s;
+        
+        
     }
     
     

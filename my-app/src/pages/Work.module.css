@@ -113,7 +113,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 80px;
     color: black;
-    margin-right: 2%;
+    
     text-align: center;
   }
 
