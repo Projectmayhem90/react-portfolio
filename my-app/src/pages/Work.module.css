@@ -87,18 +87,22 @@
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
   .workBox {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.0rem;
-    padding-left: 1rem;
+    gap: 2.0rem;
+    padding-left: 5rem;
+    text-align: center;
   }
 
   .workBox img {
     width: 60%;
     height: auto;
+    padding-left: 5rem;
+    text-align: center;
   }
 
   .workModule {
     width: 90%;
     margin: 0 auto;
+    text-align: center;
   }
 }
 

@@ -103,13 +103,16 @@ img {
 @media screen and (min-width: 1023px) and (max-width: 1370px) {
     img {
         height: 15%; 
-        width: 69%; 
+        width: 65%; 
         margin-top: 2rem;
+        margin-right: 12rem;
     }
 
     .aboutContent {
-        margin: 1rem .30vw;
-        font-size: 1.2rem;
+        margin-top: -3rem;
+        margin-left: -8rem;
+        margin-right: -1.9rem;
+        font-size: 1.13rem;
     }
 
     .aboutText {
@@ -123,27 +126,27 @@ img {
         grid-gap: 5px;
         align-items: center;
         color: black;
-        margin-top: 1vw;
+        margin-top: -2vw;
     }
 }
 
 @media screen and (min-width: 2100px) and (max-width: 2700px) {
     img {
 
-        height: 1vw;
-        width: 15vw;
+        height: 2vw;
+        width: 17vw;
         border-radius: 4px;
         margin-top: 2vw;
-        margin-left: 12vw;
+        margin-left: 17vw;
         margin-bottom: 1rem;
     }
 
     .aboutContent {
-        margin-right: 22.5vw; 
+        margin-right: 21.5vw; 
         margin-top: .01vw;
-        margin-left: -8.5vw;
+        margin-left: -4.5vw;
         text-align: left;
-        font-size:  1.34rem;
+        font-size:  1.38rem;
         letter-spacing: .02rem;
     
     }
@@ -156,5 +159,6 @@ img {
         grid-gap: -2px;
         align-items: center;
         color: black;
+        margin-top: -2rem;
     }
 }

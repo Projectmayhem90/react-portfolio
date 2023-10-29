@@ -1,5 +1,5 @@
 :root {
-  --bg: #a9c4d6;
+  --bg: #c7dfef;
   --secondary: pink;
   --light: rgba(238, 238, 247, 1);
 }
@@ -68,7 +68,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+body {
 
+  margin: auto;
+}
 
 h1,
 h2,
@@ -98,6 +101,7 @@ img {
 
 .footerIcons {
   justify-content:center;
+  padding-right: 2.5rem;
   list-style-type: none;
   column-gap: 100px;
   display: flex;

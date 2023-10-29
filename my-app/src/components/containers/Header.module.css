@@ -1,33 +1,76 @@
 
 
-.navigationContainer {
-  width: 100%;
-  background-color: #a9c4d6;
+.header {
+  background-size: cover;  /* cover ensures the background image covers the entire element */
+  background-repeat: no-repeat;
+  background-position: center center; /* This ensures the image is centered */
+  /* Set a default height if required */
+  height: 200px;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
+  .header {
+    height: .5rem
+  }
 
+}
 
-  .navigationContainer {
-    padding: 1px 5px;
+@media screen and (max-width: 600px) {
+  .header {
+    height: 3rem
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    height: 6rem
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    height: 8rem
   }
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 1366px) {
-
-
-  .navigationContainer {
-    padding: 10px 5px;
+@media screen and (min-width: 1550px) and (max-width: 2090px) {
+  .header {
+    height: 11.4rem;
+    width: 100%;
+    padding-top: 5.3rem;
+    
   }
+
 }
 
+@media screen and (min-width: 2100px) and (max-width: 2480px) {
 
-@media screen and (min-width: 1367px) and (max-width: 1980px) {
-
-
-  .navigationContainer {
-    padding: 15px 30px;
+  .header {
+    height: 1rem;
+    width: 40%;
+    padding-left: 50rem;
+    padding-right: 50rem;
+    padding-top: 8rem;
+    padding-bottom: 15.5rem;
   }
+
+}
+
+@media screen and (min-width: 2500px) and (max-width: 2780px) {
+
+  .header {
+    height: .5rem;
+    width: 45%;
+    padding-left: 40rem;
+    padding-right: 48rem;
+    padding-top: 8rem;
+    padding-bottom: 16.5rem;
+  }
+
 }
 

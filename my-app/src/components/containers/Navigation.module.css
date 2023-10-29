@@ -44,12 +44,11 @@ nav li a:active.hover {
 
 .navigationContainer {
     width: 99.6%;
-    background-color:#a9c4d6; 
+    background-color:#c7dfef;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* border: 4px outset #778fa1; */
-    border-radius: 3.0px;
     transition: border-color 0.3s ease;
     background-size: cover;
 }
@@ -70,7 +69,7 @@ nav li a:active.hover {
     letter-spacing: .2rem;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 400px) and (max-width: 550px) {
 
     .nameText {
         font-size: 10px;
@@ -82,7 +81,7 @@ nav li a:active.hover {
     }
 
     nav li a {
-        padding: 8px 5px;
+        padding: 100px 10px;
         font-size: 15px;
     }
 
@@ -141,7 +140,6 @@ nav li a:active.hover {
 
     .navigationContainer {
         width: 99.6%;
-        background-color: #a9c4d6;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -215,7 +213,7 @@ nav li a:active.hover {
 @media screen and (min-width: 1900px) and (max-width: 2700px) {
     .navigationContainer {
         width: 99.6%;
-        background-color: #a9c4d6;
+        background-color: #c7dfef;
         display: flex;
         justify-content: space-between;
         align-items: center;
