@@ -54,11 +54,57 @@ img {
     }
 }
 
+@media screen and (min-width: 360px) and (max-width: 410px) {
+    /* Mobile portrait style */
+    img {
+     
+        width: 5rem; 
+    
+    }
+
+    .aboutContent {
+        margin: 1rem 2vw;
+        font-size: 1.05rem;
+        margin-top: -1rem;
+    }
+
+    .aboutText {
+        font-size: 1.5rem;
+    }
+
+    .aboutHolder {
+        grid-template-columns: 1fr; 
+    }
+}
+
+
+@media screen and (min-width: 411px) and (max-width: 700px) {
+    /* Mobile portrait style */
+    img {
+     
+        width: 20rem; 
+        margin: 1rem auto;
+    }
+
+    .aboutContent {
+        margin: 1rem 2vw;
+        font-size: 1rem;
+    }
+
+    .aboutText {
+        font-size: 1.5rem;
+    }
+
+    .aboutHolder {
+        grid-template-columns: 1fr; 
+    }
+}
+
 @media screen and (max-width: 767px) {
     /* Mobile portrait style */
     img {
-        height: auto; 
-        width: 70%; 
+     
+        width: 20rem; 
         margin: 1rem auto;
     }
 
@@ -100,18 +146,73 @@ img {
     }
 }
 
-@media screen and (min-width: 1023px) and (max-width: 1370px) {
+@media screen and (min-width: 1024px) and (max-width: 1225px) {
+    /* Mobile landscape style */
+    img { 
+        width: 24rem; 
+        margin-top: 1rem;
+    }
+
+    .aboutContent {
+        margin: 1rem 4vw;
+        font-size: 1.2rem;
+        margin-left: 7rem;
+        margin-right: -1rem;
+    }
+
+    .aboutText {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .aboutHolder {
+        grid-template-columns: 1fr; 
+    }
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1400px) {
     img {
-        height: 15%; 
-        width: 65%; 
-        margin-top: 2rem;
+     
+        width: 17.0rem; 
+        margin-top: 4rem;
+        margin-right: 13rem;
+        margin-bottom: .1rem;
+    }
+
+    .aboutContent {
+        margin-top: .1rem;
+        margin-left: -13rem;
+        margin-right: 7.2rem;
+        font-size: 1.09rem;
+    }
+
+    .aboutText {
+        font-size: 1.3rem;
+    }
+
+    .aboutHolder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: 5px;
+        align-items: center;
+        color: black;
+        margin-top: -4vw;
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1500px) {
+    img {
+        height: 10rem; 
+        width: 17.2rem; 
+        margin-top: 3rem;
         margin-right: 12rem;
     }
 
     .aboutContent {
-        margin-top: -3rem;
-        margin-left: -8rem;
-        margin-right: -1.9rem;
+        margin-top: 1rem;
+        margin-left: -14rem;
+        margin-right: 5.9rem;
         font-size: 1.13rem;
     }
 
@@ -130,7 +231,100 @@ img {
     }
 }
 
-@media screen and (min-width: 2100px) and (max-width: 2700px) {
+@media screen and (min-width: 1501px) and (max-width: 1699px) {
+    img {
+        height: 10rem; 
+        width: 17.1rem; 
+        margin-top: 3rem;
+        margin-right: 11rem;
+    }
+
+    .aboutContent {
+        margin-top: .5rem;
+        margin-left: -16rem;
+        margin-right: 9.9rem;
+        font-size: 1.14rem;
+    }
+
+    .aboutText {
+        font-size: 1.3rem;
+    }
+
+    .aboutHolder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: 5px;
+        align-items: center;
+        color: black;
+        margin-top: -2vw;
+    }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1900px) {
+    img {
+        height: 10rem; 
+        width: 17.2rem; 
+        margin-top: 4rem;
+        margin-right: 11rem;
+    }
+
+    .aboutContent {
+        margin-top: 1rem;
+        margin-left: -18.1rem;
+        margin-right: 7.5rem;
+        font-size: 1.16rem;
+    }
+
+    .aboutText {
+        font-size: 1.3rem;
+    }
+
+    .aboutHolder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: 5px;
+        align-items: center;
+        color: black;
+        margin-top: -2vw;
+    }
+}
+
+@media screen and (min-width: 1901px) and (max-width: 2399px) {
+    img {
+
+        height: 10rem;
+        width: 19rem;
+        border-radius: 4px;
+        margin-top: 2vw;
+        margin-left: 12vw;
+        margin-bottom: .5rem;
+    }
+
+    .aboutContent {
+        margin-right: 19.5vw; 
+        margin-top: .04vw;
+        margin-left: -8.9vw;
+        text-align: left;
+        font-size:  1.16rem;
+        letter-spacing: .024em;
+    
+    }
+    
+
+    .aboutHolder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: -2px;
+        align-items: center;
+        color: black;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 2400px) and (max-width: 2700px) {
     img {
 
         height: 2vw;

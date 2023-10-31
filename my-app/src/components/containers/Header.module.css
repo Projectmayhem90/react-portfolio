@@ -1,76 +1,82 @@
 
 
 .header {
-  background-size: cover;  /* cover ensures the background image covers the entire element */
+  background-size: cover;  
   background-repeat: no-repeat;
-  background-position: center center; /* This ensures the image is centered */
-  /* Set a default height if required */
+  background-position: center ; 
+  background-image: fixed;
+
   height: 200px;
-  padding-bottom: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+
+  
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 2401px) and (max-width: 2700px) {
   .header {
-    height: .5rem
-  }
-
-}
-
-@media screen and (max-width: 600px) {
-  .header {
-    height: 3rem
-  }
-
-}
-
-@media screen and (max-width: 800px) {
-  .header {
-    height: 6rem
-  }
-
-}
-
-@media screen and (max-width: 1023px) {
-  .header {
-    height: 8rem
+    height: 18rem;
+    background-size: 100% 420px;
   }
 }
 
-@media screen and (min-width: 1550px) and (max-width: 2090px) {
+@media screen and (min-width: 2100px) and (max-width: 2400px) {
   .header {
-    height: 11.4rem;
-    width: 100%;
-    padding-top: 5.3rem;
-    
+    height: 17rem;
+    background-size: 100% 390px;
   }
-
 }
 
-@media screen and (min-width: 2100px) and (max-width: 2480px) {
-
+@media screen and (min-width: 1900px) and (max-width: 2099px) {
   .header {
-    height: 1rem;
-    width: 40%;
-    padding-left: 50rem;
-    padding-right: 50rem;
-    padding-top: 8rem;
-    padding-bottom: 15.5rem;
+    height: 16rem;
+    background-size: 100% 385px;
   }
-
 }
 
-@media screen and (min-width: 2500px) and (max-width: 2780px) {
-
+@media screen and (min-width: 1600px) and (max-width: 1899px) {
   .header {
-    height: .5rem;
-    width: 45%;
-    padding-left: 40rem;
-    padding-right: 48rem;
-    padding-top: 8rem;
-    padding-bottom: 16.5rem;
+    height: 15rem;
+    background-size: 100% 370px;
   }
-
 }
 
+@media screen and (min-width: 1300px) and (max-width: 1599px) {
+  .header {
+    height: 14rem;
+    background-size: 100% 360px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
+  .header {
+    height: 12.2rem;
+    background-size: 100% 290px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  .header {
+    height: 11rem;
+    background-size: 100% 272px;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 699px) {
+  .header {
+    height: 10.5rem;
+    background-size: 100% 240px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 579px) {
+  .header {
+    height: 9.2rem;
+    background-size: 100% 200px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 480px) {
+  .header {
+    height: 5.8rem;
+    background-size: 100% 140px;
+  }
+}

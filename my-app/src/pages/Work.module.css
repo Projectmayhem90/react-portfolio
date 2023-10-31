@@ -84,7 +84,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
+@media screen and (min-width: 1024px) and (max-width: 1450px) {
   .workBox {
     grid-template-columns: repeat(2, 1fr);
     gap: 2.0rem;
@@ -131,12 +131,12 @@
   }
 }
 
-@media screen and (min-width: 1450px) and (max-width: 1899px) {
+@media screen and (min-width: 1451px) and (max-width: 1899px) {
   .workBox {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 30px;
+    grid-gap: 10px;
     color: black;
     margin-right: 2%;
     text-align: center;
@@ -152,7 +152,6 @@
   .workModule {
     font-size: 1.3rem;
     text-align: center;
-    margin-left: 2.2vw;
 
   }
 }
