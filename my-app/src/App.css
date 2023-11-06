@@ -30,23 +30,6 @@ body {
 */
 
 
-.profileImg {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  object-fit: cover;
-  padding-bottom: 0rem;
-  padding-right: 3rem;
-  padding-left: 3rem;
-}
-
-.profileImg img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-
 
 nav ul {
   display: flex;
@@ -73,21 +56,17 @@ body {
   margin: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 1rem 0;
-}
-
 
 
 img {
+  
   max-width: 100%;
   height: auto;
-  justify-content: center;
+ 
+}
+.workModule img {
+  height: 50vw;
+ 
 }
 
 .footer {

@@ -2,7 +2,7 @@ import React from 'react';
 import classes from '../pages/Work.module.css';
 import pokedexmin from '../images/pokedexmin.png';
 import regexgist from '../images/regexgist.png';
-import JATE from '../images/JATE.png';
+import passwordGen from '../images/passwordGen.png';
 import SocialAPI from '../images/18.ch18.png';
 import Virtuoso from '../images/VirtuosoBandPage.png'
 import Steamup from '../images/STEAMUPHOME.png'
@@ -35,11 +35,11 @@ function WorkItem() {
                 github='https://github.com/Projectmayhem90/regex-gist/blob/main/regex-gist.md'
             />
             <WorkModule
-                deploy='https://pwa-0527.herokuapp.com/'
-                image={JATE}
-                Name='PWA Text Editor'
-                desc={'J.A.T.E. or Just Another Text Editor is simply a text editor with added features. It supports Javascript syntax formatting, allowing you to practice your Javascript coding either within the browser or by installing the app to work offline.'}
-                github='https://github.com/Projectmayhem90/progressive-web-applications-text-editor'
+                deploy='https://projectmayhem90.github.io/Password-Gen-ch3/'
+                image={passwordGen}
+                Name='Password Generator'
+                desc={'This is my Password Generater Project I created for the OSU bootcamp. Password is consisted of 12 to 200 characters. Using Uppercase, LowerCased, Special, and Numeric characters. It can be reused and asks the person to input functions for selections'}
+                github='https://github.com/Projectmayhem90/Password-Gen-ch3'
             />
              <WorkModule
                 deploy='https://drive.google.com/file/d/1AvnS6jmJvypA10Zv3jB4p2c_qxN8r1L3/view'
