@@ -77,24 +77,21 @@ nav li a:active.hover {
 
 
 
-@media screen and (min-width: 380px) and (max-width: 480px) {
+@media screen and (min-width: 380px) and (max-width: 420px) {
 
     .nameText {
         font-size: 2.1rem;
-        margin-left: 27px;
+        justify-content: center;
         text-align: center;
     }
 
     nav ul {
         justify-content: center;
-        padding-right: 1rem;
     }
 
     nav li a {
-        padding: 9px 11px;
+        padding: 9px 9px;
         font-size: 11px;
-        margin-right: .1rem;
-        margin-left: -.2rem;
     }
 
     nav {
@@ -103,7 +100,38 @@ nav li a:active.hover {
 
     .navigationContainer {
 
-        margin-bottom: 2.5rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 480px) {
+
+    .nameText {
+        font-size: 2.3rem;
+        padding-left: 2vw;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav li a {
+        padding: 9px 9px;
+        font-size: 12px;
+        margin-left: 1.3vw;
+    }
+
+    nav {
+        margin-right: 0px;
+    }
+
+    .navigationContainer {
+
+        margin-bottom: 1.5rem;
         display: flex;
         flex-wrap: wrap;
     }
@@ -224,6 +252,81 @@ nav li a:active.hover {
 
 
 @media screen and (min-width: 981px) and (max-width: 1280px) {
+
+    .navigationContainer {
+        width: 99.6%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 4px outset #778fa1; */
+        transition: border-color 0.3s ease;
+        background-size: cover;
+        margin-bottom: 1rem;
+    }
+
+    .nameText {
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-left: 10px;
+        background: linear-gradient(45deg, #0c4d7b, rgb(97, 169, 240));
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, color 0.3s;
+        letter-spacing: .2rem;
+    }
+    
+    nav {
+        display: flex;
+        margin-right: 10px;
+    }
+    
+    
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    
+    
+    nav li {
+        margin-left: 1px;
+        
+    }
+    
+    nav li a {
+        padding: 12px 10px;
+        text-decoration: none;
+        cursor: pointer;
+        color: #fff;
+        background-color: rgba(16, 66, 128, 0.99);
+        transition: color 0.3s ease;
+        border-radius: 5px;
+        letter-spacing: .1rem;
+        transition: 0.3s;
+        font-size: 1rem;
+        justify-content: center;
+    }
+    
+    
+    nav li a:hover {
+        background-color: rgb(97, 169, 240);
+        
+    }
+    
+    
+    nav li a:active,
+    nav li a:active.hover {
+        background-color: rgba(242, 238, 249, 0.8); 
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1415px) {
 
     .navigationContainer {
         width: 99.6%;
