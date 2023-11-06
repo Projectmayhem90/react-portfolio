@@ -56,19 +56,15 @@
     /* Mobile portrait style */
     img {
      
-        width: 5rem; 
-    
+        width: 20rem; 
+        margin: 1rem auto;
     }
 
     .aboutContent {
-        margin: .5rem;
-        font-size: 1.05rem;
-        margin-top: -1rem;
+        margin: .1rem 2vw;
+        font-size: 1.2rem;
     }
 
-    .aboutText {
-        font-size: 1.5rem;
-    }
 
     .aboutHolder {
         grid-template-columns: 1fr; 
