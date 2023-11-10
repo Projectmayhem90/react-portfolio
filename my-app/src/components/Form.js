@@ -11,7 +11,7 @@ function ContactForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Check if each input field is empty and set an error message state accordingly
+    // Check if each input field is empty /?
     if (!formData.name) {
       setNameError('Please enter your name');
     } else {
