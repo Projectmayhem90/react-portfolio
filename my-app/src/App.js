@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="./pdf/JoshuaOBrienRS.pdf.pdf" element={<DownloadComponent />}></Route>
         {/* Catch-all route */}
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/#" replace />} />
       </Routes>
       <Footer />     
     </HashRouter>
