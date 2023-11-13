@@ -23,21 +23,26 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>Joshua OBrien Portfolio</title>
+  <script>
+    (function () {
+      // Run the script only if there is no hash "#" in the URL
+      if (window.location.hash === '') {
+        // Get the pathname and search query (if any)
+        const path = window.location.pathname;
+        const search = window.location.search;
+
+        // Build the new URL with the hash
+        const newUrl = window.location.origin + '/#' + path + search;
+
+        // Redirect to the new URL
+        window.location.href = newUrl;
+      }
+    })();
+  </script>
 </head>
 
 <body>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Check if the URL contains a hash
-      if (!window.location.hash) {
-        // If there's no hash, redirect to the hash version of the URL
-        // Extract the path after the base URL
-        const path = window.location.pathname;
-        // Redirect to the same path with a hash in front
-        window.location.replace('/#' + path);
-      }
-    });
-  </script>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
   <!--
       This HTML file is a template.
